@@ -1,22 +1,32 @@
 {
   "name": "TheCocoaHTTPServer",
   "version": "0.1.0",
-  "summary": "A short description of TheCocoaHTTPServer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sdqvsqiu@gmail.com/TheCocoaHTTPServer",
+  "summary": "fork from CocoaHTTPServer",
+  "homepage": "https://github.com/DacianSky/TheCocoaHTTPServer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sdqvsqiu@gmail.com": "sdqvsqiu@gmail.com"
-  },
-  "source": {
-    "git": "https://github.com/sdqvsqiu@gmail.com/TheCocoaHTTPServer.git",
-    "tag": "0.1.0"
+    "Single": "libobjc@gmail.com"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TheCocoaHTTPServer/Classes/**/*"
+  "source": {
+    "git": "https://github.com/DacianSky/TheCocoaHTTPServer.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "TheCocoaHTTPServer",
+    "TheCocoaHTTPServer/**/*.{h,m}"
+  ],
+  "public_header_files": "TheCocoaHTTPServer/**/*.h",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "dependencies": {
+    "CocoaAsyncSocket": [
+
+    ]
+  }
 }

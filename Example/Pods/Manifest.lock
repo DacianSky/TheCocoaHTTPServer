@@ -1,15 +1,22 @@
 PODS:
-  - TheCocoaHTTPServer (0.1.0)
+  - CocoaAsyncSocket (7.6.3)
+  - TheCocoaHTTPServer (0.1.0):
+    - CocoaAsyncSocket
 
 DEPENDENCIES:
   - TheCocoaHTTPServer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
 
 EXTERNAL SOURCES:
   TheCocoaHTTPServer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TheCocoaHTTPServer: 5c4a89603b9af9ad688708b377ebb3de53acd9c0
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  TheCocoaHTTPServer: 128fb2fc99fc9bac554d2ca43e2e3770dea0dfe0
 
 PODFILE CHECKSUM: 2f7ddbf42a118a53aa94d606570cf96f8147c73a
 
