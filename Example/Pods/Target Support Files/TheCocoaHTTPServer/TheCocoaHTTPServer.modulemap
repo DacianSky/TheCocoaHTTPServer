@@ -1,0 +1,6 @@
+framework module TheCocoaHTTPServer {
+  umbrella header "TheCocoaHTTPServer-umbrella.h"
+
+  export *
+  module * { export * }
+}

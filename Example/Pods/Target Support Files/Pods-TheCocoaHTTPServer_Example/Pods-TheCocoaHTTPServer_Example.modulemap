@@ -1,0 +1,6 @@
+framework module Pods_TheCocoaHTTPServer_Example {
+  umbrella header "Pods-TheCocoaHTTPServer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

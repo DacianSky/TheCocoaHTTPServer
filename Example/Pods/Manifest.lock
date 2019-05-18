@@ -1,0 +1,16 @@
+PODS:
+  - TheCocoaHTTPServer (0.1.0)
+
+DEPENDENCIES:
+  - TheCocoaHTTPServer (from `../`)
+
+EXTERNAL SOURCES:
+  TheCocoaHTTPServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TheCocoaHTTPServer: 5c4a89603b9af9ad688708b377ebb3de53acd9c0
+
+PODFILE CHECKSUM: 2f7ddbf42a118a53aa94d606570cf96f8147c73a
+
+COCOAPODS: 1.5.3

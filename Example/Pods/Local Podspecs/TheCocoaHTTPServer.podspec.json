@@ -1,0 +1,22 @@
+{
+  "name": "TheCocoaHTTPServer",
+  "version": "0.1.0",
+  "summary": "A short description of TheCocoaHTTPServer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sdqvsqiu@gmail.com/TheCocoaHTTPServer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sdqvsqiu@gmail.com": "sdqvsqiu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sdqvsqiu@gmail.com/TheCocoaHTTPServer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TheCocoaHTTPServer/Classes/**/*"
+}
